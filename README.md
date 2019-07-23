@@ -13,12 +13,8 @@
 5. Deploy
 
 ## Update the informations
-</br>
-This website uses nodejs react in order to render the different objects. It also uses algolia as a back-end and searching engine.
-</br>
-Objects are dynamically added to the website according to the back-end. For the information inside those objects, they are also dynamically created. The principal app (named src/App.js) will create JSX objects according to information provided inside **src/data/**. This folder list le different language version presented for a certain template. Then, the app will create a place holder with a specific id. This place holder will be filled with specific info later on.
-</br>
-When the user click on a file, the app will search the content of the file in **public/data/{nameOfTheApi}/{nameOfTheTemplate}**. Then, the app will list all language in the json file **src/data/{nameOfTheApi}List.json**, and add the information from the first directory to the website.
+
+This website uses nodejs react in order to render the different objects. It also uses algolia as a back-end and searching engine. Objects are dynamically added to the website according to the back-end. For the information inside those objects, they are also dynamically created. The principal app (named src/App.js) will create JSX objects according to information provided inside **src/data/**. This folder list le different language version presented for a certain template. Then, the app will create a place holder with a specific id. This place holder will be filled with specific info later on. When the user click on a file, the app will search the content of the file in **public/data/{nameOfTheApi}/{nameOfTheTemplate}**. Then, the app will list all language in the json file **src/data/{nameOfTheApi}List.json**, and add the information from the first directory to the website.
 </br>
 So in order to update the data base, you need to :
 
@@ -34,4 +30,4 @@ So in order to update the data base, you need to :
 
 ## Problems
 
-Right now the website is composed of parts that can be stored inside a backend, such as files inside **public/data/** and **src/data/**. This is why we have to redeploy after evry single modifications. It would be better if an external API could take care of that. 
+Right now the website is composed of parts that can be stored inside a backend, such as files inside **public/data/** and **src/data/**. This is why we have to redeploy after evry single modifications. It would be better if an external API could take care of that.
