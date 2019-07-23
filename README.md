@@ -14,11 +14,11 @@
 
 ## What it can do
 
-This program present different function that are basic use cases of various API. To a 'template' can be associated different version (different language to be exact).
+This program present different functions that are basic use cases of various API. To a 'template' can be associated different version (different language to be exact).
 
 ## What it cannot do
 
-This program can't present two version of the same template in the same language. To do so, you will have to create another object. This program also cannot present an entire project as a template. 
+This program cannot present two versions of the same template in the same language. To do so, you will have to create another object. This program also cannot present an entire project as a template.
 
 ## Update the informations
 
