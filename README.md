@@ -12,6 +12,14 @@
 
 5. Deploy
 
+## What it can do
+
+This program present different function that are basic use cases of various API. To a 'template' can be associated different version (different language to be exact).
+
+## What it cannot do
+
+This program can't present two version of the same template in the same language. To do so, you will have to create another object. This program also cannot present an entire project as a template. 
+
 ## Update the informations
 
 This website uses nodejs react in order to render the different objects. It also uses algolia as a back-end and searching engine. Objects are dynamically added to the website according to the back-end. For the information inside those objects, they are also dynamically created. The principal app (named src/App.js) will create JSX objects according to information provided inside **src/data/**. This folder list le different language version presented for a certain template. Then, the app will create a place holder with a specific id. This place holder will be filled with specific info later on. When the user click on a file, the app will search the content of the file in **public/data/{nameOfTheApi}/{nameOfTheTemplate}**. Then, the app will list all language in the json file **src/data/{nameOfTheApi}List.json**, and add the information from the first directory to the website.
