@@ -1,0 +1,7 @@
+[build]
+  functions = ".src"
+  publish = "build"
+[[redirects]]
+  from = "/*"
+  to = "public/index.html"
+  status = 200

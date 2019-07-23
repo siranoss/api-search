@@ -1,0 +1,28 @@
+{
+  "name": "apis-search",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-instantsearch-dom": "^5.2.2",
+    "react-scripts": "1.1.4",
+    "jquery": "3.4.1"
+  },
+  "scripts": {
+    "start": "npm run css && react-scripts start",
+    "build": "npm run css && react-scripts build && npm run netlify:redirects",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "css": "npm run tailwind && npm run purgecss",
+    "tailwind": "npm run tailwind:normalize && npm run tailwind:css",
+    "tailwind:normalize": "tailwind build src/normalize.src.css -c tailwind.js -o src/normalize.css",
+    "tailwind:css": "tailwind build src/tailwind.src.css -c tailwind.js -o src/tailwind.css",
+    "purgecss": "purgecss -c purgecss.config.js -o src",
+    "netlify:redirects": "echo 'https://api-search.netlify.com/* https://api-search.io/:splat 301!' > build/_redirects"
+  },
+  "devDependencies": {
+    "purgecss": "^1.0.1",
+    "tailwindcss": "^0.5.3"
+  }
+}
