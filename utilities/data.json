@@ -1,0 +1,34 @@
+[
+    {
+  "name": "Autopilot_Hello_World",
+  "description": "Twilio template for an Hello World robot",
+  "categorie": "Communication",
+  "API": "Twilio",
+  "link": "https://github.com/twilio/autopilot-templates/blob/master/Assistants/HelloWorld/schema.json",
+  "favor": "0"
+    },
+    {
+  "name": "Autopilot_Airline_Reservation",
+  "description": "Twilio template for an Airline Reservation robot",
+  "categorie": "Communication",
+  "API": "Twilio",
+  "link": "https://github.com/twilio/autopilot-templates/blob/master/Assistants/AirlineReservations/schema.json",
+  "favor": "0"
+    },
+    {
+  "name": "Usage_Record",
+  "description": "Twilio template for Usage record",
+  "categorie": "Communication",
+  "API": "Twilio",
+  "link": "https://www.twilio.com/docs/usage/api/usage-record",
+  "favor": "0"
+    },
+    {
+  "name": "Send_Message",
+  "description": "Twilio template to Send a message",
+  "categorie": "Communication",
+  "API": "Twilio",
+  "link": "https://www.twilio.com/docs/sms/send-messages",
+  "favor": "0"
+    }
+]
